@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            padding: 0%;
+            margin: 0%;
+            box-sizing: border-box;
+            font-family: sans-serif;
+        }
+        header{
+            width: 100%;
+            height: 100vh;
+            background: url(../img/fit.jpg);
+            background-size: cover;
+        }
+
+        .gym1{
+            text-decoration: none;
+            width: 100;
+            height: 100;
+            color: white;
+            display: flex;
+            align-items: center;
+            font-family: sans-serif;
+        }
+        .gym1 img{
+            width: 66px;
+            height: 40px;
+            top: 30px;
+            left: 130px;
+            transform: translate(-30,-130);
+            margin: 20px 30px;
+        }
+        .manu a{
+            text-decoration: none;
+            color: white;
+            position: relative;
+            justify-content: space-between;
+            padding: 20px 30px;
+            left: 100%;
+        }
+        .sign a{
+            text-decoration: none;
+            color: white;
+            background: red;
+            font-size: 20px;
+            padding: 10px 20px;
+            justify-content: space-between;
+             left: 250%;
+             margin-bottom: 10px;
+             border-radius: 30px 30px;
+        }
+        .h-text{
+            max-width: 600px;
+            position: absolute;
+            text-align: start;
+            color: white;
+            top: 50%;
+            left: 25%;
+            transform: translate(-50%,-25%);
+        }
+        
+        .color1{
+            color: rgb(42, 165, 140);
+            font-style: bold;
+        }
+
+        .color2{
+            color: aqua;
+            font-style: bold;
+        }
+        
+        .h-text a{
+            text-decoration: none;
+            background: red;
+            color: white;
+            padding: 10px 60px;
+            top: 20%;
+            justify-content: space-around;
+            border-spacing: 20px;
+            border-radius: 20px 20px;
+        }
+
+    </style>
+</head>
+<body>
+    <header>
+        <nav class="gym1">
+            <div class="img">
+        <img src="../img/gym.png" alt="">
+        </div>
+
+        <div class="manu">
+            <a href="#">Home</a>
+            <a href="#">About us</a>
+            <a href="#">Resources</a>
+            <a href="#">Contact</a>
+        
+             <div class="sign">
+                <a href="#">Signup</a>
+             </div>
+        </div>
+        </nav>
+        
+        <div class="h-text">
+            <h1><span class="color1">BUILD</span>YOUR BODY <span class="color2">TRANSFROM</span>YOUR LIFE</h1>
+            <br>
+            <p>If you want something you've never had,you must be willing to do something you've never done</p>
+             <br>
+             <br>
+            <a href="#">Start</a>
+        </div>
+    </header>
+</body>
+</html>
